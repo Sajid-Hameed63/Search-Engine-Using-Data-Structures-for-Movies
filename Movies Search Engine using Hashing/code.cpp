@@ -177,7 +177,7 @@ public:
         float ReceiverForRating;
         float RatingChecker;
         ifstream ObjectOfStreamClass;
-        ObjectOfStreamClass.open("Data.txt");
+        ObjectOfStreamClass.open("data.txt");
         while(ObjectOfStreamClass.eof()==0)
         {
             ObjectOfStreamClass >> ReceiverForSerialNumber;
